@@ -1,2 +1,2 @@
-# FreeCodeCamp Projects
+# FreeCodeCamp Tribute Page
 ## by Alex Makoviecki
