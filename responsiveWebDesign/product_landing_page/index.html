@@ -1,0 +1,83 @@
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/d577ded5ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://i.ibb.co/VQL92Tn/norther.png" alt="Norther Style logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#catalog">Catalog</a></li>
+                <li><a class="nav-link" href="#our-mission">Our Story</a></li>
+                <li><a class="nav-link" href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="our-mission">
+        <div class="icon"><i class="fas fa-tree"></i></div>
+        <h2>Made just for you.</h2>
+        <iframe 
+            id="video" 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/455noehZSS4" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
+    
+    <div class="container">
+        <section id="catalog">
+            <div class="grid">
+                <div class="icon"><i class="fas fa-socks"></i></div>
+                <div class="desc">
+                    <h2>Winter Clothing</h2>
+                    <p>Our winter clothing is made with the finest materials and will last a lifetime.
+                        We only use the most durable leather, and every jacket comes waxed.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-hammer"></i></div>
+                <div class="desc">
+                    <h2>Everyday carry? No problem</h2>
+                    <p>Just as your carry is a reflection of your personal approach to preparedness, 
+                        our EDC shop is a reflection of our emphasis on useful, 
+                        quality products that are reliable in every situation.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-caravan"></i></div>
+                <div class="desc">
+                    <h2>Home Goods</h2>
+                    <p>
+                        Your living space should be intentional, not accidental.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="contact-us">
+        <h2>Why don't you come along for the ride?</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input 
+                name="email" 
+                id="email" 
+                type="email" 
+                placeholder="Enter your email address"
+                required
+            />
+            <input 
+                id="submit"
+                type="submit"
+                value="Get Started" class="btn"
+            />
+        </form>
+    </section>
+</body>
